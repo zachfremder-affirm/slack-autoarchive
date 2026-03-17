@@ -1,0 +1,28 @@
+{
+	"your_first_workspace_id": {
+		"slack_token": "xoxb-YOUR-FIRST-WORKSPACE-BOT-TOKEN",
+		"dry_run": true,
+		"days_inactive": 14,
+		"min_members": 2,
+		"admin_channel": "C0123456789",
+		"whitelist_keywords": "support,critical",
+		"skip_channel_str": "%%noarchive",
+		"skip_subtypes": ["channel_join", "group_join"]
+	},
+	"your_second_workspace_id": {
+		"slack_token": "xoxb-YOUR-SECOND-WORKSPACE-BOT-TOKEN",
+		"dry_run": false,
+		"days_inactive": 60,
+		"min_members": 0,
+		"admin_channel": "C9876543210",
+		"whitelist_keywords": "announcements,team-updates",
+		"skip_channel_str": "%%noarchive",
+		"skip_subtypes": ["channel_join", "group_join", "channel_leave", "group_leave"]
+	},
+	"another_workspace": {
+		"slack_token": "xoxb-YOUR-THIRD-WORKSPACE-BOT-TOKEN",
+		"dry_run": true,
+		"days_inactive": 7
+		// Other settings will default if not specified here
+	}
+}
